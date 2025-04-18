@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
+
+html, body {
+    font-family: Inter Tight, sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 1261.67px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.class1 {
+    background-color: #000000;
+}
+
+.class1_body {
+    max-width: 1249px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    color: #E4E4E4;
+    font-size: 14px;
+}
+
+.class1_text-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    span{
+        background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 12px;
+        flex-grow: 1;
+    }
+    div {
+        flex-grow: 2;
+    }
+}
+
+.class1_title-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    
+}
+
+.class1_title{
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 54px;
+    font-family: Unbounded, sans-serif;
+    font-weight: 200;
+}
+
+
+.class1_main-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.image-box_text{
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 14px;
+}
+
+.image2 {
+    flex-grow: 3;
+}
+
+
+.class1_text2-box{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: flex-start;
+    
+}
+
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    align-items: center;
+}
+.image-box_text {
+    margin-bottom: 20px;
+}
