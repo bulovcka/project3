@@ -14,6 +14,7 @@
 .influenzila {
     display: flex;
     flex-direction: row;
+    margin-top: 48px;
 }
 
 .influenzila_right-side {
@@ -132,6 +133,7 @@
     flex-direction: row;
     justify-content: baseline;
     gap: 20px;
+    margin-top: 407px;
 }
 
 .year_2023{
@@ -152,6 +154,61 @@
     color: transparent;
     font-size: 12px;
     margin: 10px;
+}
+
+.class0_title{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title0_image{
+    margin-left: 305px;
+}
+
+.class0_main-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: last baseline;
+}
+
+.main-text{
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: Unbounded, sans-serif;
+    font-size: 54px;
+    font-weight: 300;
+    margin-left: 6px;
+}
+
+.main-text_caption{
+    font-family: Unbounded, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.title_right-side{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.right-side_image{
+    padding-bottom: 21px;
+}
+
+.right-side_caption{
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 14px;
 }
 
 html, body {
@@ -176,6 +233,7 @@ html, body {
 }
 
 .text {
+    margin-top: 48px;
     color: #E4E4E4;
     font-size: 14px;
 }
