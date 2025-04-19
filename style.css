@@ -1,6 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
 
+.class0{
+    background-image: url('images/max_shirko_None_b20aa929-95e1-4cff-81b4-8d0306ac0b3e-2\ 1.png');
+}
+
+.class0_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.influenzila {
+    display: flex;
+    flex-direction: row;
+}
+
+.influenzila_right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #FFFFFF 2px solid;
+    border-top: #FFFFFF 2px solid;
+    border-left: #FFFFFF 2px solid;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.influenzila_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    gap: 10px;
+    .title {
+        font-family: Unbounded, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+}
+.influenzila_caption {
+    font-family: Unbounded, sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-right: 120px;
+}
+
+
+.influenzila_left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: #FFFFFF 2px solid;
+    border-bottom: #FFFFFF 1px solid;
+    border-right: #FFFFFF 1px solid;
+    flex-grow: 3;
+}
+
+.row1 { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+.row1_item{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-left: #FFFFFF 1px solid;
+    border-right: #FFFFFF 1px solid;
+    border-bottom: #FFFFFF 2px solid;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+
+
+.row2 { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+.row2_item{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-left: #FFFFFF 1px solid;
+    border-right: #FFFFFF 1px solid;
+    border-bottom: #FFFFFF 1px solid;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.year{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    gap: 20px;
+}
+
+.year_2023{
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 10px;
+    font-size: 27px;
+    font-family: Unbounded, sans-serif;
+    font-weight: 200;
+}
+
+.year_caption{
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 12px;
+    margin: 10px;
+}
+
 html, body {
     font-family: Inter Tight, sans-serif;
     background-color: black;
@@ -51,7 +204,6 @@ html, body {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-end;
-    
 }
 
 .class1_title{
@@ -81,7 +233,7 @@ html, body {
 }
 
 .image2 {
-    flex-grow: 3;
+    flex-grow: 2;
 }
 
 
