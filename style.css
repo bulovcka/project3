@@ -226,10 +226,6 @@
         justify-content: flex-start;
         gap: 150px;
         list-style: none;
-        background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
         font-size: 15px;
         font-family: Unbounded, sans-serif;
     }
@@ -239,6 +235,10 @@
     border-bottom: #FFFFFF 2px solid;
     padding-bottom: 23px;
     padding-right: 50px;
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 html, body {
@@ -342,4 +342,53 @@ html, body {
 }
 .image-box_text {
     margin-bottom: 20px;
+}
+
+.class2_main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 164px;
+}
+
+.section1{
+    background-image: url('images/Rectangle\ 20.png');
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2{
+    background-image: url('images/Rectangle\ 21.png');
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.section3{
+    background-image: url('images/Rectangle\ 22.png');
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.section4{
+    background-image: url('images/Rectangle\ 23.png');
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.number{
+    font-size: 40px;
+    font-family: Unbounded, sans-serif;
+    color: #FFFFFF;
+    padding-left: 48px;
+    padding-bottom: 40px;
+    padding-top: 106px;
+}
+
+.class2_caption{
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-bottom: 46px;
+    padding-left: 48px;
 }
