@@ -3,6 +3,7 @@
 
 .class0{
     background-image: url('images/max_shirko_None_b20aa929-95e1-4cff-81b4-8d0306ac0b3e-2\ 1.png');
+    background-size: 100% 100%;
 }
 
 .class0_body {
@@ -93,6 +94,8 @@
     padding: 20px;
     flex-grow: 1;
 }
+
+
 
 
 
@@ -249,7 +252,7 @@ html, body {
 .container {
     max-width: 1261.67px;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 10px 10px;
 }
 
 .class1 {
@@ -353,6 +356,7 @@ html, body {
 
 .section1{
     background-image: url('images/Rectangle\ 20.png');
+    background-size: 100% 100%;
     grid-column: 1;
     grid-row: 1;
     display: flex;
@@ -361,18 +365,21 @@ html, body {
 
 .section2{
     background-image: url('images/Rectangle\ 21.png');
+    background-size: 100% 100%;
     grid-column: 2;
     grid-row: 1;
 }
 
 .section3{
     background-image: url('images/Rectangle\ 22.png');
+    background-size: 100% 100%;
     grid-column: 1;
     grid-row: 2;
 }
 
 .section4{
     background-image: url('images/Rectangle\ 23.png');
+    background-size: 100% 100%;
     grid-column: 2;
     grid-row: 2;
 }
