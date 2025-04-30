@@ -215,6 +215,7 @@
 }
 
 .class0_footer{
+    
     margin-top: 80px;
     background-color: #000000;
     opacity: 80%;
@@ -224,20 +225,20 @@
     padding-top: 80px;
     padding-bottom: 93px;
     ul{
+        align-items: center;
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        gap: 150px;
+        justify-content: space-around;
         list-style: none;
         font-size: 15px;
         font-family: Unbounded, sans-serif;
-    }
+    }   
 }
 
 .footer-item{
     border-bottom: #FFFFFF 2px solid;
     padding-bottom: 23px;
-    padding-right: 50px;
+    padding-right: 100px;
     background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
     -webkit-background-clip: text;
     background-clip: text;
