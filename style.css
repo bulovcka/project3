@@ -400,3 +400,90 @@ html, body {
     padding-bottom: 46px;
     padding-left: 48px;
 }
+
+.class3_header{
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 54px;
+    font-family: Unbounded, sans-serif;
+    font-weight: 200;
+}
+.class3_header-image{
+    padding-left: 25vw;
+}
+
+.class3_main-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 85px;
+}
+
+.class3_london{
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 12px;
+}
+
+.class3_main-text1{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.class3_main-text2{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.class3_main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin: 40 0 px;
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+}
+
+.card-caption{
+    color:#FFFFFF;
+    font-size: 14px;
+}
+
+.card-header{
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    font-family: Unbounded, sans-serif;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.grid-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+.grid-image::nth-child(3){
+    border-right: none;
+}
+
+.grid-text{
+    padding: 36px 73px 47px 51px;
+    border-top: 1px solid #FFFFFF;
+}
