@@ -547,6 +547,7 @@ html, body {
     flex-direction: row;
     justify-content: flex-start;
     gap: 400px;
+    margin-bottom: 100px;
 }
 
 .class4-header{
