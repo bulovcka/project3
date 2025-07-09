@@ -511,4 +511,56 @@ html, body {
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.class4{
+    background-image: url(images/max_shirko_None_b20aa929-95e1-4cff-81b4-8d0306ac0b3e-2\ 1.png);
+}
+
+.gradient-text{
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-right: 30px;
+}
+
+.top-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+    font-size: 14px;
+    flex-grow: 3;
+    gap: 500px;
+    margin-bottom: 300px;
+    margin-top: 75px;
+}
+
+.image-above{
+    margin-left: 325px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 400px;
+}
+
+.class4-header{
+    background: linear-gradient(to right, #C6F1F7, #F983E9, #B877FF, #C2E9CD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 54px;
+    font-family: Unbounded, sans-serif;
+}
+
+.class4-text{
+    color: white;
+    font-size: 14px;
+    font-family: Inter Tight, sans-serif;
+    padding-top: 52px;
 }
